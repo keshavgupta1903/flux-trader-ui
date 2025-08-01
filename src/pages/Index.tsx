@@ -1,12 +1,7 @@
-import { TradingLayout } from "@/components/layout/TradingLayout";
-import Dashboard from "./Dashboard";
+import TradeNowHome from "./TradeNowHome";
 
 const Index = () => {
-  return (
-    <TradingLayout>
-      <Dashboard />
-    </TradingLayout>
-  );
+  return <TradeNowHome />;
 };
 
 export default Index;
